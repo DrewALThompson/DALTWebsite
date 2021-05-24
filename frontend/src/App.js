@@ -13,16 +13,16 @@ import NotFound from './pages/notFound'
 function App() {
   return (
     <Router>
-      <div className='col-1-routerBox'>
-        <Link route={'/'}>Home</Link> | 
-        <Link route={'/about'}> About</Link> |
-        <Link route={'/projects'}> Projects</Link>
+      <div className='routerBox'>
+        <Link route={'/'} className='routerBox-link'>Home</Link> 
+        <Link route={'/about'} className='routerBox-link'> About</Link>
+        <Link route={'/projects'} className='routerBox-link'> Projects</Link>
       </div>
 
       <Switch>
         <Route exact path='/'><Home /></Route>
         <Route path='/about'><About /></Route>
-        <Route path='/project'><Projects /></Route>
+        <Route path='/projects'><Projects /></Route>
         <Route path='*'><NotFound /></Route>
       </Switch>
     </Router>

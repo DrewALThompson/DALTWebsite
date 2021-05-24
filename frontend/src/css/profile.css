@@ -1,127 +1,100 @@
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
       width: 100%;
+      flex-wrap: wrap;
     }
 
+    .col-2-3-profileCard {
+        border-radius: 0;
+    }
+
+    img {
+        border-radius:0;
+    }
+
+    .col-2-2-linkBox {
+        border-radius: 0;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
     .col-2-profileCont {
         display: flex;
-        flex-direction: row;
+        flex-direction: column-reverse;
     }
-
+    
     .col-2-3-profileCard {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding-top: 1px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         max-width: 300px;
-        margin: auto;
-        text-align: center;
-        border-radius: 5%;
-    }
-
-    .cardTitle {
-        color: grey;
-        font-size: 18px;
-    }
-
-    a {
-        text-decoration: none;
-        font-size: 22px;
-        color: black;
-    }
-
-    img {
-        width: 100%;
-        border-radius: 5% 5% 0 0;
     }
 
     .col-2-2-linkBox {
-        display: flex;
-        flex-direction: column;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         max-width: 300px;
-        margin: auto;
-        text-align: center;
-        border-radius: 5%;
-    }
-
-    button {
-        border: none;
-        outline: 0;
-        display: inline-block;
-        padding: 8px;
-        color: white;
-        background-color: #000;
-        text-align: center;
-        cursor: pointer;
-        width: 100%;
-        font-size: 18px;
-    }
-
-    button:hover, a:hover {
-        opacity: 0.7;
-    }
-}
-
-@media only screen and (max-width: 1400px) {
-    .col-2-profileCont {
-        display: flex;
-        flex-direction: row;
     }
 
     .col-2-3-profileCard {
-        display: flex;
-        justify-content: right;
-        flex-direction: column;
-        padding-top: 1px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        max-width: 300px;
-        margin: auto;
-        text-align: center;
         border-radius: 5%;
     }
 
-    .cardTitle {
-        color: grey;
-        font-size: 18px;
-    }
-
-    a {
-        text-decoration: none;
-        font-size: 22px;
-        color: black;
-    }
-
     img {
-        width: 100%;
+        border-radius:0;
         border-radius: 5% 5% 0 0;
     }
 
     .col-2-2-linkBox {
-        display: flex;
-        flex-direction: column;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        max-width: 300px;
-        margin: auto;
-        text-align: center;
         border-radius: 5%;
     }
+}
 
-    button {
-        border: none;
-        outline: 0;
-        display: inline-block;
-        padding: 8px;
-        color: white;
-        background-color: #000;
-        text-align: center;
-        cursor: pointer;
-        width: 100%;
-        font-size: 18px;
-    }
+.col-2-profileCont {
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
 
-    button:hover, a:hover {
-        opacity: 0.7;
-    }
+.col-2-3-profileCard {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    padding-top: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    background-color: #F4F7F6;
+}
+
+.cardTitle {
+    color: black;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+.col-2-2-linkBox {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    background-color: #F4F7F6;
+}
+
+
+.col-2-1-infoBox {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    background-color: #F4F7F6;
 }

@@ -1,6 +1,36 @@
-.col-1-routerBox {
+html {
+    background-color: #6A8590;
+    color: #F5F7F5;
+}
+
+@media only screen and (max-width: 768px){
+    .routerBox {justify-content: space-evenly;}
+}
+
+@media only screen and (min-width: 769px){
+    .routerBox {justify-content: center;}
+    .routerBox-link {padding: 0 2px 0 2px}
+}
+
+.routerBox {
+    margin-top: 2px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     border: 1px black solid;
+    text-align: center;
+    background-color: #85ACC1;
+}
+
+.routerBox-link:link, .routerBox-link:visited {
+    background-color: #777B7E;
+    color: white;
+    padding: 0px 15px;
+    margin: 0px 2px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.routerBox-link:hover, .routerBox-link:active {
+    background-color: #777B7E;
+    cursor: pointer;
 }
