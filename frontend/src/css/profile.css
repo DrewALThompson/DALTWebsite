@@ -1,8 +1,13 @@
+.profileCont {
+    display: flex;
+    flex-direction: row;
+}
+
 .profileCard {
-    display: block;
-    position: absolute;
-    top: 0%;
-    left: 35%;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    padding-top: 1px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
@@ -13,6 +18,27 @@
 .cardTitle {
     color: grey;
     font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+img {
+    width: 100%;
+    border-radius: 5% 5% 0 0;
+}
+
+.linkBox {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5%;
 }
 
 button {
@@ -28,18 +54,6 @@ button {
     font-size: 18px;
 }
 
-a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-}
-
 button:hover, a:hover {
     opacity: 0.7;
 }
-
-img {
-    width: 100%;
-    border-radius: 5%;
-}
-
