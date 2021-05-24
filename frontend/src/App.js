@@ -14,9 +14,9 @@ function App() {
   return (
     <Router>
       <div className='routerBox'>
-        <Link route={'/'} className='routerBox-link'>Home</Link> 
-        <Link route={'/about'} className='routerBox-link'> About</Link>
-        <Link route={'/projects'} className='routerBox-link'> Projects</Link>
+        <Link to='/' className='routerBox-link'>Home</Link> 
+        <Link to='/about' className='routerBox-link'> About</Link>
+        <Link to='/projects' className='routerBox-link'> Projects</Link>
       </div>
 
       <Switch>
