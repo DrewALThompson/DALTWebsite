@@ -4,7 +4,7 @@ import '../css/profile.css';
 
 const Profile = () => {
     return (
-        <div className="profileCard">
+        <div className="col-2-3-profileCard">
             <img src={headshot} alt='headshot'></img>
             <h1>Drew Thompson</h1>
         </div>

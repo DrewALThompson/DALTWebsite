@@ -13,7 +13,7 @@ import NotFound from './pages/notFound'
 function App() {
   return (
     <Router>
-      <div className='routerBox'>
+      <div className='col-1-routerBox'>
         <Link route={'/'}>Home</Link> | 
         <Link route={'/about'}> About</Link> |
         <Link route={'/projects'}> Projects</Link>

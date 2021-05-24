@@ -1,59 +1,127 @@
-.profileCont {
-    display: flex;
-    flex-direction: row;
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    .col-2-profileCont {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .col-2-3-profileCard {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 1px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        border-radius: 5%;
+    }
+
+    .cardTitle {
+        color: grey;
+        font-size: 18px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 22px;
+        color: black;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 5% 5% 0 0;
+    }
+
+    .col-2-2-linkBox {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        border-radius: 5%;
+    }
+
+    button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    button:hover, a:hover {
+        opacity: 0.7;
+    }
 }
 
-.profileCard {
-    display: flex;
-    justify-content: right;
-    flex-direction: column;
-    padding-top: 1px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    border-radius: 5%;
-}
+@media only screen and (max-width: 1400px) {
+    .col-2-profileCont {
+        display: flex;
+        flex-direction: row;
+    }
 
-.cardTitle {
-    color: grey;
-    font-size: 18px;
-}
+    .col-2-3-profileCard {
+        display: flex;
+        justify-content: right;
+        flex-direction: column;
+        padding-top: 1px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        border-radius: 5%;
+    }
 
-a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-}
+    .cardTitle {
+        color: grey;
+        font-size: 18px;
+    }
 
-img {
-    width: 100%;
-    border-radius: 5% 5% 0 0;
-}
+    a {
+        text-decoration: none;
+        font-size: 22px;
+        color: black;
+    }
 
-.linkBox {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    border-radius: 5%;
-}
+    img {
+        width: 100%;
+        border-radius: 5% 5% 0 0;
+    }
 
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
+    .col-2-2-linkBox {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        border-radius: 5%;
+    }
 
-button:hover, a:hover {
-    opacity: 0.7;
+    button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    button:hover, a:hover {
+        opacity: 0.7;
+    }
 }
