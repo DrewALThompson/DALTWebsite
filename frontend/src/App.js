@@ -13,9 +13,11 @@ import NotFound from './pages/notFound'
 function App() {
   return (
     <Router>
-      <Link route={'/'}>Home</Link> | 
-      <Link route={'/about'}> About</Link> |
-      <Link route={'/projects'}> Projects</Link>
+      <div className='routerBox'>
+        <Link route={'/'}>Home</Link> | 
+        <Link route={'/about'}> About</Link> |
+        <Link route={'/projects'}> Projects</Link>
+      </div>
 
       <Switch>
         <Route exact path='/'><Home /></Route>
