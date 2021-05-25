@@ -44,10 +44,6 @@
         border-radius: 5% 5% 0 0;
     }
 
-    .col-2-2-linkBox {
-        border-radius: 5%;
-    }
-
 }
 
 .col-2-profileCont {
@@ -86,9 +82,11 @@ img {
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px black solid;
     margin: auto;
     text-align: center;
     background-color: #F4F7F6;
+    width: 100%;
 }
 
 .col-2-2-linkBox img {
