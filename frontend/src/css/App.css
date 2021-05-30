@@ -8,12 +8,14 @@ html {
 }
 
 @media only screen and (min-width: 769px){
-    .routerBox {justify-content: center;}
+    .routerBox {
+        justify-content: center;
+    }
     .routerBox-link {padding: 0 2px 0 2px}
 }
 
 .routerBox {
-    margin-top: 2px;
+    margin-top: 0px;
     display: flex;
     flex-direction: row;
     border: 1px black solid;
