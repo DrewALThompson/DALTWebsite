@@ -1,20 +1,22 @@
 import React from 'react';
 import InfoBox from '../components/infoBox'
-import './css/About.css';
+import '../css/about.css';
 const About = () => {
 
-    let para1Title = 'Skillset';
-    let para1 ='JavaScript | Node.js | React | Redux | Ruby | Rails | ActiveRecord | Sqlite3 | HTML5 | CSS | Git | WCAG';
-    let para2Title = 'Education';
-    let para2 = '';
-    let para3Title = 'Work Experience';
-    let para3 = '';
+    let divName = 'col-3-1-about'
+    let paraOneTitle = 'Skillset';
+    let paraOne ='JavaScript | Node.js | React | Redux | Ruby | Rails | ActiveRecord | Sqlite3 | HTML5 | CSS | Git | WCAG';
+    let paraTwoTitle = 'Education';
+    let paraTwo = 'University of Colorado at Boulder';
+    let paraTwoOne = 'Flatiron School'
+    let paraThreeTitle = 'Work Experience';
+    let paraThree = `Manager at Wallaby's Liquor Warehouse`;
     return (
-        <>
-            <InfoBox para1Title={para1Title} para1={para1} linkBox={null}/>
-            <InfoBox para2Title={para2Title} para2={para2} linkBox={null}/>
-            <InfoBox para3Title={para3Title} para3={para3} linkBox={null}/>
-        </>
+        <div className={divName}>
+            <InfoBox className={'col-3-1'} paraTitle={paraOneTitle} para={paraOne} linkBox={null}/>
+            <InfoBox className={'col-3-2'} paraTitle={paraTwoTitle} para={paraTwo} para2={paraTwoOne} linkBox={null}/>
+            <InfoBox className={'col-3-3'} paraTitle={paraThreeTitle} para={paraThree} linkBox={null}/>
+        </div>
     )
 }
 
