@@ -10,7 +10,7 @@ const Home = () => {
     let linkBox = <LinkBox />
     return (
         <div className='col-2-profileCont'>
-            <InfoBox text={insert} linkBox={linkBox} />
+            <InfoBox divName={"col-2-1-infoBox"} paraName={'col-2-1-1'} para1={insert} linkBox={linkBox} />
             <Profile />
         </div>
     )
