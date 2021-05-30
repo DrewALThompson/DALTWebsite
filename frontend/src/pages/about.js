@@ -13,9 +13,9 @@ const About = () => {
     let paraThree = `Manager at Wallaby's Liquor Warehouse`;
     return (
         <div className={divName}>
-            <InfoBox className={'col-3-1'} paraTitle={paraOneTitle} para={paraOne} linkBox={null}/>
-            <InfoBox className={'col-3-2'} paraTitle={paraTwoTitle} para={paraTwo} para2={paraTwoOne} linkBox={null}/>
-            <InfoBox className={'col-3-3'} paraTitle={paraThreeTitle} para={paraThree} linkBox={null}/>
+            <InfoBox className={'col-3-1'} paraTitle={paraOneTitle} para={paraOne}/>
+            <InfoBox className={'col-3-2'} paraTitle={paraTwoTitle} para={paraTwo} para2={paraTwoOne}/>
+            <InfoBox className={'col-3-3'} paraTitle={paraThreeTitle} para={paraThree}/>
         </div>
     )
 }
