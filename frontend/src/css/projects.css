@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+
+}
+
+@media only screen and (min-width: 769px) {
+  [class*="col-"] {
+    width: 90%;
+    height: 200px;
+  }
+}
+
+
+.col-4-projects {
+  border: solid 1px black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #F4F7F6;
+  color: black;
+}
+
+/* need a thing for links such that they are no underlines etc */
+/* column css areas made just in case probably unneeded but we will see delete if true */
+.col-4-1 {
+
+}
+
+.col-4-2 {
+
+}
+
+.col-4-3 {
+
+}
+
+/* might need this for the links .routerBox-link:hover, .routerBox-link:active {
+    background-color: #777B7E;
+    cursor: pointer;
+} */

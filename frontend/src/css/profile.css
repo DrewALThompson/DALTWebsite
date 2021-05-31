@@ -70,14 +70,16 @@
     display: flex;
     justify-content: right;
     flex-direction: column;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 250px;
     height: 525px;
     margin: 30px 10px 10px 10px;
     text-align: center;
     background-color: #F4F7F6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);  
 }
+
+/* why do i have to box shadows??? */
 
 .cardTitle {
     color: black;
@@ -125,3 +127,5 @@ img {
     background-color: #F4F7F6;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
+
+/* I have two box shadows here too why? */

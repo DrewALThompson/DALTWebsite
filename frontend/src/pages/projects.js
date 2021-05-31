@@ -24,10 +24,10 @@ const Projects = () => {
     //didn't map these because i was lazy, maybe later. Might be too much to map too considering I only want three links showing at a time.
     //Names also aren't that imaginative because I am tired will refactor later probably
     return (
-        <div>
-            <InfoBox className={'col-3-1'} paraTitle={paraTitle} para={para} link={link} link2={linkOne2} linkName={linkName} linkName2={linkNameOne2}/>
-            <InfoBox className={'col-3-1'} paraTitle={paraTitleTwo} para={paraTwo} link={linkTwo} link2={linkTwo2} linkName={linkNameTwo} linkName2={linkNameTwo2}/>
-            <InfoBox className={'col-3-1'} paraTitle={paraTitleThree} para={paraThree} link={linkThree} linkName={linkNameThree}/>
+        <div className={'col-4-projects'}>
+            <InfoBox className={'col-4-1'} paraTitle={paraTitle} para={para} link={link} link2={linkOne2} linkName={linkName} linkName2={linkNameOne2}/>
+            <InfoBox className={'col-4-2'} paraTitle={paraTitleTwo} para={paraTwo} link={linkTwo} link2={linkTwo2} linkName={linkNameTwo} linkName2={linkNameTwo2}/>
+            <InfoBox className={'col-4-3'} paraTitle={paraTitleThree} para={paraThree} link={linkThree} linkName={linkNameThree}/>
         </div>
     )
 }

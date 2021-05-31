@@ -8,17 +8,32 @@
 }
 
 @media only screen and (min-width: 769px) {
-    
-
+  [class*="col-"] {
+    width: 90%;
+    height: 200px;
+  }
 }
 
 
 .col-3-about {
-    
+  border: solid 1px black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #F4F7F6;
+  color: black;
 }
 
-.col-3-1 {}
 
-.col-3-2 {}
+/* column css areas made just in case probably unneeded but we will see delete if true */
+.col-3-1 {
 
-.col-3-3 {}
+}
+
+.col-3-2 {
+
+}
+
+.col-3-3 {
+
+}
