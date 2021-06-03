@@ -14,6 +14,8 @@
 
     .col-2-2-linkBox {
         border-radius: 0;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
     }
 
 }
@@ -28,26 +30,34 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        max-width: 300px;
     }
 
     .col-2-2-linkBox {
-        max-width: 300px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 100%;
     }
 
     .col-2-3-profileCard {
-        border-radius: 5%;
+        border-radius: 5px;
+        height: 540px;
+        width: 300px;
+        margin: 20px 20px 10px 10px;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);  
     }
 
     img {
         border-radius:0;
-        border-radius: 5% 5% 0 0;
+        border-radius: 5px 5px 0 0;
+        width: 100%;
     }
 
     .col-2-1-infoBox {
         width: 900px;
-        height: 525px;
+        height: 540px;
         border: 2px black solid;
+        margin: 20px 40px 0px 40px;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+        border-radius: 5px;
     }
 
     .col-2-1-infoBox .col-2-1-1 {
@@ -70,16 +80,10 @@
     display: flex;
     justify-content: right;
     flex-direction: column;
-    width: 250px;
-    height: 525px;
-    margin: 30px 10px 10px 10px;
     text-align: center;
     background-color: #F4F7F6;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);  
 }
 
-/* why do i have to box shadows??? */
 
 .cardTitle {
     color: black;
@@ -99,9 +103,6 @@ img {
 .col-2-2-linkBox {
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border: 1px black solid;
-    margin: 125px 300px;
     text-align: center;
     background-color: #F4F7F6;
     width: 100%;
@@ -121,11 +122,7 @@ img {
 .col-2-1-infoBox {
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 30px 40px 10px 40px;
     text-align: center;
     background-color: #F4F7F6;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
-/* I have two box shadows here too why? */

@@ -6,7 +6,7 @@ import '../css/profile.css';
 
 const Home = () => {
 
-    let insert = 'Hi, My name is Drew Thompson! Fresh Graduate from Flatirons Coding School with an ever increasing passion for Accessibility Coding and the Mobile First Approach. With an attitude to never give up, to learn fast and learn as much as I can, I promise to do my best to be a valuable asset to any team. I am just a brand new coder looking to make a positive impact on the world!';
+    let insert = 'Hi, My name is Drew Thompson! Fresh Graduate from Flatirons Coding School with an ever increasing passion for Accessibility Coding and the Mobile First Approach. With an attitude to never give up, to learn fast, and learn as much as I can, I promise to do my best to be a valuable asset to any team. I am just a brand new coder looking to make a positive impact on the world!';
     let linkBox = <LinkBox />
     return (
         <div className='col-2-profileCont'>
