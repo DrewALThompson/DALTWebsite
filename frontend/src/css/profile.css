@@ -33,15 +33,15 @@
     }
 
     .col-2-2-linkBox {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 8px 4px 8px 4px black;
         width: 100%;
+        width: 60%;
+        margin: 40px 0px 20px 200px;
     }
 
     .col-2-3-profileCard {
         border-radius: 5px;
-        height: 540px;
-        width: 300px;
-        margin: 20px 20px 10px 10px;
+        margin: 30px 20px 14px 10px;
         box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);  
     }
 
@@ -49,13 +49,13 @@
         border-radius:0;
         border-radius: 5px 5px 0 0;
         width: 100%;
+        max-height: 538px;
+        max-width: 1090px;
     }
 
     .col-2-1-infoBox {
-        width: 900px;
-        height: 540px;
         border: 2px black solid;
-        margin: 20px 40px 0px 40px;
+        margin: 30px 10px 15px 20px;
         box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
         border-radius: 5px;
     }
@@ -103,9 +103,9 @@ img {
 .col-2-2-linkBox {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     background-color: #F4F7F6;
-    width: 100%;
 }
 
 .col-2-2-linkBox img {
