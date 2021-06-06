@@ -1,3 +1,4 @@
+/* if i want to i can add a couple more sizings and maybe find a better color pattern but that's for later not for now. */
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
       width: 100%;

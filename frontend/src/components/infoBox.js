@@ -7,10 +7,10 @@ const InfoBox = (props) => {
     //extra para2 incase i need it
     return (
         <div className={props.divName}>
-            <p className={props.paraName}>{props.paraTitle}{props.para}</p>
+            <p className={props.paraName}>{props.paraTitle}<br />{props.para}</p>
             {props.linkBox}
             <a href={props.link}>{props.linkName}</a> <a href={props.link2}>{props.linkName2}</a>
-            <p>{props.para2}{props.para2}</p>
+            <p>{props.para2}</p>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 @media only screen and (max-width: 768px) {
-    [class*="col-"] {
+    [class*="col-3"] {
       width: 100%;
       flex-wrap: wrap;
     }
@@ -16,12 +16,6 @@
 
 
 .col-3-about {
-  border: solid 1px black;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  background-color: #F4F7F6;
-  color: black;
 }
 
 
